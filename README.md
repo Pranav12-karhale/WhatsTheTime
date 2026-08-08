@@ -1,7 +1,9 @@
-# WhatsTheTime - Digital Clock
-
+<div align="center">
+<h1 align="center"> WhatsTheTime - Digital Clock </h1>
+ <h2 align="center">https://whatsthetime-imur.onrender.com</h2>
 
 A beautifully designed, interactive digital clock built with vanilla HTML, CSS, and JavaScript.
+</div>
 
 ## Features
 - **Modern UI**: A stunning glassmorphism design with a dark mode aesthetic.
