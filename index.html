@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Digital Clock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="clk.css">
+</head>
+<body>
+  <div class="celestial-body" id="sun"></div>
+  <div class="celestial-body" id="moon"></div>
+
+  <main class="clkcontainer">
+    <div class="clock-display">
+      <div class="time-wrapper">
+        <h1 class="clock" id="clock">00:00:00</h1>
+        <span id="ampm"></span>
+      </div>
+      <div class="date-wrapper">
+        <h2 class="day" id="day">Loading...</h2>
+        <h3 class="date" id="date">00/00/0000</h3>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <button id="btn" class="format-btn active">12 Hour</button>
+      <button id="btn2" class="format-btn">24 Hour</button>
+    </div>
+    
+    <h2 class="greet"></h2>
+  </main>
+  <script src="clk.js"></script>
+</body>
+</html>
