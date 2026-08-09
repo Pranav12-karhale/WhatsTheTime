@@ -1,6 +1,7 @@
 <div align="center">
 <h1 align="center"> WhatsTheTime - Digital Clock </h1>
- <h2 align="center">https://whatsthetime-imur.onrender.com</h2>
+
+## [Access the watch here >>](https://whatsthetime-imur.onrender.com)
 
 A beautifully designed, interactive digital clock built with vanilla HTML, CSS, and JavaScript.
 </div>
